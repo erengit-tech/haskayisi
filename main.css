@@ -1,0 +1,51 @@
+.carousel-image {
+    height: 400px; /* Set a fixed height */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    margin: 10px 0; /* Add margin to resize the page layout */
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(243, 144, 28, 0.5); /* Accent color with transparency */
+    border-radius: 50%; /* Make the icons circular */
+    width: 50px; /* Adjust the size */
+    height: 50px; /* Adjust the size */
+  }
+  
+  .carousel-control-prev-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" fill%3D"%23e3ddd7" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M4.5 0L3.5 1 6 3.5 3.5 6 4.5 7 8 3.5 4.5 0z"/%3E%3C/svg%3E');
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns%3D"http%3A//www.w3.org/2000/svg" fill%3D"%23e3ddd7" viewBox%3D"0 0 8 8"%3E%3Cpath d%3D"M3.5 0L2.5 1 5 3.5 2.5 6 3.5 7 7 3.5 3.5 0z"/%3E%3C/svg%3E');
+  }
+  
+  h3 {
+    color: #8b5b30; /* Dark Apricot color */
+  }
+  
+  body {
+    color: #f3901c; /* Text color */
+  }
+  
+  .container {
+    background-color: #ffffff; /* Container background color */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  a {
+    color: #f3901c; /* Link color */
+  }
+  
+  a:hover {
+    color: #f4ae52; /* Link hover color */
+  }
+  
+  .nav-link {
+    color: #8b5b30; /* Navigation link color */
+  }
+  
+  .nav-link:hover {
+    color: #f3901c; /* Navigation link hover color */
+  }
